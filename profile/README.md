@@ -14,16 +14,40 @@
 
 ## 📚 Libraries
 
-### [@grandgular/rive-angular](https://github.com/Grandgular/rive)
-Modern Angular wrapper for [Rive](https://rive.app) animations with reactive state management, built with Angular signals and zoneless architecture.
+### Rive for Angular — [source](https://github.com/Grandgular/rive)
 
-[![npm version](https://img.shields.io/npm/v/@grandgular/rive-angular.svg)](https://www.npmjs.com/package/@grandgular/rive-angular)
-[![npm downloads](https://img.shields.io/npm/dw/@grandgular/rive-angular.svg)](https://www.npmjs.com/package/@grandgular/rive-angular)
+Modern Angular wrappers for [Rive](https://rive.app) (WebGL2 and Canvas), with reactive state management, signals, and zoneless architecture. The package `@grandgular/rive-angular` is **deprecated**—use a renderer-specific package below. The project is [listed in Rive’s community runtimes (Angular)](https://rive.app/docs/runtimes/community-runtimes/angular).
+
+**[@grandgular/rive-angular-webgl2](https://www.npmjs.com/package/@grandgular/rive-angular-webgl2)** (WebGL2)
+
+[![npm version](https://img.shields.io/npm/v/@grandgular/rive-angular-webgl2.svg)](https://www.npmjs.com/package/@grandgular/rive-angular-webgl2)
+[![npm downloads](https://img.shields.io/npm/dw/@grandgular/rive-angular-webgl2.svg)](https://www.npmjs.com/package/@grandgular/rive-angular-webgl2)
+
+```bash
+npm install @grandgular/rive-angular-webgl2
+```
+
+**[@grandgular/rive-angular-canvas](https://www.npmjs.com/package/@grandgular/rive-angular-canvas)** (Canvas 2D)
+
+[![npm version](https://img.shields.io/npm/v/@grandgular/rive-angular-canvas.svg)](https://www.npmjs.com/package/@grandgular/rive-angular-canvas)
+[![npm downloads](https://img.shields.io/npm/dw/@grandgular/rive-angular-canvas.svg)](https://www.npmjs.com/package/@grandgular/rive-angular-canvas)
+
+```bash
+npm install @grandgular/rive-angular-canvas
+```
 
 **Features**: Signals API, zoneless architecture, OnPush change detection, ViewModel data bindings, TypeScript strict mode
 
+---
+
+### [@grandgular/logrocket-angular](https://github.com/Grandgular/logrocket-angular)
+Angular integration for [LogRocket](https://logrocket.com) session replay and monitoring.
+
+[![npm version](https://img.shields.io/npm/v/@grandgular/logrocket-angular.svg)](https://www.npmjs.com/package/@grandgular/logrocket-angular)
+[![npm downloads](https://img.shields.io/npm/dw/@grandgular/logrocket-angular.svg)](https://www.npmjs.com/package/@grandgular/logrocket-angular)
+
 ```bash
-npm install @grandgular/rive-angular
+npm install @grandgular/logrocket-angular
 ```
 
 ---
@@ -84,7 +108,9 @@ npm install @grandgular/link
   
 | Library | Version | Weekly Downloads |
 |---------|---------|------------------|
-| rive-angular | ![npm](https://img.shields.io/npm/v/@grandgular/rive-angular.svg) | ![npm](https://img.shields.io/npm/dw/@grandgular/rive-angular.svg) |
+| rive-angular-webgl2 | ![npm](https://img.shields.io/npm/v/@grandgular/rive-angular-webgl2.svg) | ![npm](https://img.shields.io/npm/dw/@grandgular/rive-angular-webgl2.svg) |
+| rive-angular-canvas | ![npm](https://img.shields.io/npm/v/@grandgular/rive-angular-canvas.svg) | ![npm](https://img.shields.io/npm/dw/@grandgular/rive-angular-canvas.svg) |
+| logrocket-angular | ![npm](https://img.shields.io/npm/v/@grandgular/logrocket-angular.svg) | ![npm](https://img.shields.io/npm/dw/@grandgular/logrocket-angular.svg) |
 | yandex-metrika | ![npm](https://img.shields.io/npm/v/@grandgular/yandex-metrika.svg) | ![npm](https://img.shields.io/npm/dw/@grandgular/yandex-metrika.svg) |
 | rx | ![npm](https://img.shields.io/npm/v/@grandgular/rx.svg) | ![npm](https://img.shields.io/npm/dw/@grandgular/rx.svg) |
 | link | ![npm](https://img.shields.io/npm/v/@grandgular/link.svg) | ![npm](https://img.shields.io/npm/dw/@grandgular/link.svg) |
